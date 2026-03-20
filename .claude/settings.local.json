@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:registry.modelcontextprotocol.io)",
+      "Bash(~/.claude-notify/claude-done:*)",
+      "Bash(npx tsc:*)"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+// Static fallback catalog data

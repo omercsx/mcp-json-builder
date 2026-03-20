@@ -1,0 +1,93 @@
+/* ─── Light mode (default) ─── */
+:root {
+  /* Backgrounds */
+  --bg-main: #ffffff;
+  --bg-card: #f9fafb;
+  --bg-elevated: #f3f4f6;
+  --bg-code: #1e1e2e;
+
+  /* Text */
+  --text-primary: #111827;
+  --text-secondary: #4b5563;
+  --text-muted: #9ca3af;
+
+  /* Border */
+  --border: #e5e7eb;
+
+  /* Primary accent */
+  --primary: #4f46e5;
+  --primary-hover: #4338ca;
+  --primary-soft: #eef2ff;
+
+  /* Semantic */
+  --success: #16a34a;
+  --warning: #d97706;
+  --error: #dc2626;
+
+  /* Radius */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+
+  /* Transitions */
+  --transition-fast: 150ms;
+  --transition-normal: 250ms;
+
+  /* Font */
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+  /* Category badge colors */
+  --cat-cloud: #0ea5e9;
+  --cat-database: #8b5cf6;
+  --cat-devtools: #f97316;
+  --cat-ai: #ec4899;
+  --cat-productivity: #14b8a6;
+  --cat-payment: #22c55e;
+  --cat-custom: #6b7280;
+}
+
+/* ─── Dark mode ─── */
+.dark {
+  /* Backgrounds */
+  --bg-main: #0f111a;
+  --bg-card: #181a27;
+  --bg-elevated: #1e2033;
+  --bg-code: #131520;
+
+  /* Text */
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+
+  /* Border */
+  --border: #2d3148;
+
+  /* Primary accent */
+  --primary: #818cf8;
+  --primary-hover: #a5b4fc;
+  --primary-soft: #1e1b4b;
+
+  /* Semantic */
+  --success: #4ade80;
+  --warning: #fbbf24;
+  --error: #f87171;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.3);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.4), 0 2px 4px -2px rgb(0 0 0 / 0.3);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.5), 0 4px 6px -4px rgb(0 0 0 / 0.4);
+
+  /* Category badge colors */
+  --cat-cloud: #38bdf8;
+  --cat-database: #a78bfa;
+  --cat-devtools: #fb923c;
+  --cat-ai: #f472b6;
+  --cat-productivity: #2dd4bf;
+  --cat-payment: #4ade80;
+  --cat-custom: #9ca3af;
+}

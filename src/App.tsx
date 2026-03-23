@@ -1,14 +1,9 @@
-import Header from '@/components/layout/Header'
+import { AppLayout } from '@/components/layout/AppLayout'
 
 function App() {
   return (
     <>
-      <Header />
-      <section id="center">
-        <div>
-          <h1>MCP JSON Builder Center</h1>
-        </div>
-      </section>
+      <AppLayout />
     </>
   )
 }

@@ -1,9 +1,15 @@
-import { AppLayout } from '@/components/layout/AppLayout'
+import { AppLayout, MobileTabNav } from '@/components/layout'
+import useMediaQuery from '@/hooks/use-media-query'
+
+import { Toaster } from 'sonner'
 
 function App() {
+  const isDesktop = useMediaQuery('(min-width: 768px)')
+
   return (
     <>
-      <AppLayout />
+      {isDesktop ? <AppLayout /> : <MobileTabNav />}
+      <Toaster position="bottom-right" />
     </>
   )
 }

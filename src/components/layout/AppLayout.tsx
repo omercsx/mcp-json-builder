@@ -1,6 +1,6 @@
-import { Header } from './Header'
+import Header from './Header'
 
-export function AppLayout() {
+export default function AppLayout() {
   return (
     <div className="h-screen flex flex-col">
       <Header />

@@ -4,7 +4,7 @@ import { Sun, Moon } from 'lucide-react'
 
 import useDarkMode from '@/hooks/use-dark-mode'
 
-export function Header() {
+export default function Header() {
   const [isDark, toggleTheme] = useDarkMode()
 
   return (
